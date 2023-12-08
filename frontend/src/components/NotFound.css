@@ -1,0 +1,42 @@
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+}
+
+.notFound h2 {
+    font-size: 80px;
+    color: red;
+}
+
+.notFound p {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.notFound button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 14px;
+    border: 2px solid #20517f;
+    background: none;
+    outline: none;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    color: #20517f;
+    font-size: 14px;
+}
+
+@media screen and (max-width:500px) {
+    .notFound p {
+        font-size: 25px;
+        color: red;
+        text-align: center;
+    }
+}

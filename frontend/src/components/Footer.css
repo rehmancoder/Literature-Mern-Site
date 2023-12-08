@@ -1,0 +1,111 @@
+.footerParent {
+    background: #20517f;
+    /* background: #048064; */
+    padding: 80px 50px 35px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.footerCh1 a,
+.footerCh2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerCh1 a img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.footerCh1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.FiconDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.footerCh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+    /* font-weight: bold; */
+}
+
+.footerBottom span {
+    display: block;
+    color: #fff;
+    background: #20517f;
+    /* background: #048064; */
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: poppins, sans-serif;
+    padding: 20px 10px 10px 10px;
+    line-height: 20px;
+    border-top: 1px solid #fff;
+}
+
+@media screen and (max-width:710px) {
+    .footerCh2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        /* font-weight: bold; */
+    }
+}
+
+@media screen and (max-width:550px) {
+    .footerPara {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerParent {
+        padding: 80px 15px 50px 15px;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    .footerCh {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerCh p,
+    a {
+        font-size: 14px;
+    }
+
+    /* .footerCh1 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        flex-wrap: wrap;
+    } */
+}

@@ -1,0 +1,94 @@
+.counter {
+    padding: 50px 50px;
+    margin-bottom: 50px;
+}
+
+.counter .heading {
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.counterMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: poppins, sans-serif;
+}
+
+.couterInnerDiv {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.couterInnerDiv h2 {
+    font-size: 50px;
+    color: #048064;
+    /* color: #20517f; */
+}
+
+.couterInnerDiv p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.counterMain1,
+.counterMain2 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1163px) {
+    .counterMain {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .counterMain1,
+    .counterMain2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:707px) {
+    .couterInnerDiv {
+        width: 100%;
+    }
+
+    .couterInnerDiv h2 {
+        font-size: 60px;
+    }
+
+    .counter .heading {
+        font-size: 28px;
+    }
+
+    .counter {
+        padding: 30px 20px 50px 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .counterMain {
+        flex-direction: column;
+    }
+
+    .counter {
+        padding: 20px 20px 50px 20px;
+    }
+}
+
+@media screen and (max-width:305px) {
+    .counter {
+        padding: 20px 10px 50px 10px;
+    }
+}

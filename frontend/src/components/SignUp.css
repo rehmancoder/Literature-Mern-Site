@@ -1,0 +1,123 @@
+.contactt {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: rgb(0, 128, 255); */
+    background: #20517f;
+}
+
+.signUpForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: roboto, sans-serif;
+}
+
+.signUpForm input {
+    /* border-radius: 50px; */
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    width: 300px;
+    /* margin-top: 10px; */
+    /* background: #bebebe; */
+    border-bottom: 2px solid gray;
+    /* color: #fff;  */
+}
+
+.signUpForm input::placeholder {
+    color: gray;
+}
+
+.signUpForm button {
+    border: none;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 20px;
+    /* background: rgb(0, 128, 255); */
+    background: #20517f;
+    border-radius: 30px;
+}
+
+.contactt .formDiv {
+    border-radius: 10px;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.contactt .formDiv a {
+    color: gray;
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactt .formDiv h2 {
+    font-family: roboto, sans-serif;
+    /* color: #fff; */
+    margin-bottom: 50px;
+    font-size: 40px;
+    /* color: black; */
+    color: #20517f;
+}
+
+.logInSpan {
+    color: darkblue;
+}
+
+.signUpBack {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: poppins, sans-serif;
+}
+
+@media screen and (max-width:426px) {
+    .signUpBack {
+        top: 70px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .contactt .formDiv {
+        padding: 30px 10px;
+        width: 92%;
+    }
+
+    .signUpForm {
+        width: 100%;
+    }
+
+    .signUpForm input {
+        width: 100%;
+    }
+
+    .contactt .formDiv h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .signUpForm button {
+        width: 100%;
+    }
+}
